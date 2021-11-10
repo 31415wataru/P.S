@@ -11,10 +11,10 @@ body {
 }
 header {
    padding: 30px 4% 10px;
-   position: fixed;
+  
    top: 0;
    width: 100%;
-   background-color: transparent;
+   background-color: #010101;
    display: flex;
    align-items: center;
 }
@@ -47,13 +47,21 @@ li {
 }
 h2 {
    margin: 0;
-   font-size: 30px;
+   font-size: 50px;
    font-weight: normal;
    color: #fff;
 }
 
 .sp-nav {
    display: none;
+}
+#home_text{
+   margin-left: 150px;
+   margin-right: 150px;
+   font-size: 30px;
+}
+h3{
+   font-size: 40px;
 }
 @media screen and (max-width: 980px) {
    .pc_header {
