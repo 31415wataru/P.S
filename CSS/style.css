@@ -36,7 +36,7 @@ ul {
 }
 li {
    margin: 0 0 0 15px;
-   font-size: 14px;
+   font-size: 24px;
 }
 .main-visual {
    display: flex;
@@ -56,7 +56,7 @@ h2 {
    display: none;
 }
 @media screen and (max-width: 980px) {
-   .pc-nav {
+   .pc_header {
       display: none;
    }
    .sp-nav {
@@ -124,7 +124,7 @@ h2 {
       padding: 0;
    }
    .sp-nav li span {
-      font-size: 15px;
+      font-size: 24px;
       color: #fff;
    }
    .sp-nav li a, .sp-nav li span {
