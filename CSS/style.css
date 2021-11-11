@@ -55,10 +55,11 @@ h2 {
 .sp-nav {
    display: none;
 }
-#home_text{
+.home_text{
    margin-left: 150px;
    margin-right: 150px;
-   font-size: 30px;
+   font-size: 32px;
+   color: #595959;
 }
 hr{
    margin-left: 150px;
@@ -80,6 +81,41 @@ h3{
    font-size: 30px;
    border-radius: 20px;
    text-decoration: none;
+}
+
+
+
+
+
+.image img{
+   width: 25%;
+   margin-left: 150px;
+   float: left;
+   margin-right: 80px;
+   margin-bottom: 60px;
+}
+.sentence_title{
+   margin-top: 50px;
+   color: #5490F2;
+   text-align: left;
+   font-size: 80px;;
+   margin-left: 150px;
+}
+.profile_text{
+   color: #595959;
+   font-family: "ヒラギノ角ゴ Pro W3" ;
+}
+.profile_text_detail{
+   margin-left: 150px;
+   margin-right: 150px;
+   font-size: 22px;
+   color: #595959;
+}
+h4{
+   margin-left: 150px;
+   font-size: 25px;
+   color: #595959;
+   clear: left;
 }
 @media screen and (max-width: 980px) {
    .pc_header {

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="CSS/style.css" />
+  <link rel="icon" type="image/jpg" href="icon.jpg">
+  <link rel="apple-touch-icon" sizes="180x180" href="icon.jpg">
+  <title>PSホームページ</title>
+  <script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous">
+</script>
+<script>
+$(function() {
+   const hum = $('#hamburger, .close')
+   const nav = $('.sp-nav')
+   hum.on('click', function(){
+      nav.toggleClass('toggle');
+   });
+});
+</script>
+
+</head>
+<body>
+    <header>
+        <h1>
+           <a class="headerlink" href="/">P.S</a>
+        </h1>
+        <nav class="pc_header">
+           <ul>
+              <li><a class="headerlink" href="index.html">HOME</a></li>
+              <li><a class="headerlink" href="about.html">ABOUT</a></li>
+              <li><a class="headerlink" href="#">PROJECT</a></li>
+              <li><a class="headerlink" href="#">CONTACT</a></li>
+           </ul>
+        </nav>
+        <nav class="sp-nav">
+         <ul>
+            <li class="phone_li"><a class="headerlink" href="index.html">HOME</a></li>
+            <li class="phone_li"><a class="headerlink" href="about.html">ABOUT</a></li>
+            <li class="phone_li"><a class="headerlink" href="#">PROJECT</a></li>
+            <li class="phone_li"><a class="headerlink" href="#">CONTACT</a></li>
+            <li class="phone_li"><a class="headerlink" href="about.html">閉じる</a></li>
+         </ul>
+       </nav>
+        <div id="hamburger">
+         <span></span>
+      </div>
+     </header>
+     <h2 class="sentence_title">Member Profile</h2>
+     <p class="home_text">
+        P.Sには様々な背景を持った人が集まっています。
+        ここではメンバーの略歴を紹介します。
+     </p>
+     <hr>
+     <br>
+     <br>
+     <div class="image">
+     <img src="img/runa.jpg">
+     </div>
+     <div class="profile_text">
+        <h3>速水瑠奈</h3>  
+        <p class="profile_text_detail">
+            兵庫県出身<br>
+            立命館守山高等学校　高校3年生<br>
+            P.S共同代表兼Lápiz Privateメンバー
+        </p>
+     </div>
+     <h4><b>Message</b></h4>
+     <p class="profile_text_detail">
+        探究活動の源は、ワクワクです！既存の物ではなく全く新しいものを生み出すのが得意です。
+        広報と渉外、スケジュール管理、アイデア創出・ブラッシュアップを担当しています。
+        休日は、イベントのお手伝いや友達と買い物に行ったり、映画を見たりして過ごしています！
+    </p>
+    <h4><b>Carrer</b></h4>
+    </body> 
