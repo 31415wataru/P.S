@@ -1,3 +1,10 @@
+@keyframes fadeIn { /*animation-nameで設定した値を書く*/
+
+   0% {opacity: 0} /*アニメーション開始時は不透明度0%*/
+ 
+   100% {opacity: 1} /*アニメーション終了時は不透明度100%*/
+ 
+ }
 @charset "utf-8";
 * {
    box-sizing: border-box;
@@ -50,6 +57,9 @@ h2 {
    font-size: 50px;
    font-weight: normal;
    color: #fff;
+}
+footer{
+   clear: both;
 }
 
 .sp-nav {
@@ -121,6 +131,26 @@ h4{
    color: #595959;
    clear: left;
 }
+
+.project_box img{
+   width: 30%;
+   float: left;
+   margin: 20px;
+   border: #BFBFBF 1px solid;
+   animation: fadeIn 2s linear 0.3s 1 normal;
+}
+
+.project_top_img img{
+   width: 50%;
+}
+.project_box_1 img{
+   width: 95%;
+   margin: 20px;
+}
+
+#pitch_photo img{
+   width:80%;
+}
 @media screen and (max-width: 980px) {
    .pc_header {
       display: none;
@@ -129,8 +159,13 @@ h4{
      width: 100%;
      margin: 0px;
      clear: left;
+     text-align: center;
    }
-   
+   .project_box img{
+      width: 95%;
+      margin: 20px;
+      border: #BFBFBF 1px solid;
+   }
    .sp-nav {
       z-index: 1;
       position: fixed;
@@ -219,4 +254,5 @@ h4{
       line-height: 1.6;
       text-align: center;
    }
+   
 }

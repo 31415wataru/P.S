@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="CSS/style.css" />
+  <link rel="icon" type="image/jpg" href="icon.jpg">
+  <link rel="apple-touch-icon" sizes="180x180" href="icon.jpg">
+  <title>PSホームページ</title>
+  <script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous">
+</script>
+<script>
+$(function() {
+   const hum = $('#hamburger, .close')
+   const nav = $('.sp-nav')
+   hum.on('click', function(){
+      nav.toggleClass('toggle');
+   });
+});
+</script>
+
+</head>
+<body>
+    <header>
+        <h1>
+           <a class="headerlink" href="/">P.S</a>
+        </h1>
+        <nav class="pc_header">
+           <ul>
+              <li><a class="headerlink" href="index.html">HOME</a></li>
+              <li><a class="headerlink" href="about.html">ABOUT</a></li>
+              <li><a class="headerlink" href="project.html">PROJECT</a></li>
+              <li><a class="headerlink" href="mailto:p.s.official.1006@gmail.com">CONTACT</a></li>
+           </ul>
+        </nav>
+        <nav class="sp-nav">
+         <ul>
+            <li class="phone_li"><a class="headerlink" href="index.html">HOME</a></li>
+            <li class="phone_li"><a class="headerlink" href="about.html">ABOUT</a></li>
+            <li class="phone_li"><a class="headerlink" href="project.html">PROJECT</a></li>
+            <li class="phone_li"><a class="headerlink" href="mailto:p.s.official.1006@gmail.com">CONTACT</a></li>
+            <li class="phone_li"><a class="headerlink" href="project.html">閉じる</a></li>
+         </ul>
+       </nav>
+        <div id="hamburger">
+         <span></span>
+      </div>
+     </header>
+     <h2 class="sentence_title">Project</h2>
+     <center>
+     <div class="project_box">
+        <a href="https://note.com/250ritsumei/n/n6a0ae494cf12">
+        <img src="img/TOTB_icon.PNG">
+        </a>
+     </div>
+     <div class="project_box">
+        <a href="project_tankyu.html">
+        <img  src="img/探究留学_icon.PNG">
+        </a>
+    </div>
+    </center>
+    <center>
+        <footer>
+            &copy; Okunishi 2021
+          </footer>
+        </center>
+</body>
